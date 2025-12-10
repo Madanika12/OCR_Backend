@@ -1,0 +1,167 @@
+# ============================================
+# Docker Ignore - Optimized for Minimal Build
+# ============================================
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+virtualenv/
+.conda/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.vimrc
+.editorconfig
+*.sublime-*
+.fleet/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*~
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+.tmp/
+*.tmp
+
+# Local uploads (not needed in container)
+uploads/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# Git
+.git/
+.gitignore
+.gitattributes
+.github/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+
+# Testing and development
+tests/
+test/
+*.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Documentation
+*.md
+docs/
+README*
+CHANGELOG*
+LICENSE*
+CONTRIBUTING*
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+Jenkinsfile
+.circleci/
+
+# Docker
+Dockerfile.dev
+docker-compose*.yml
+.dockerignore
+*.dockerfile
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Model files (will be downloaded in container)
+*.pt
+*.pth
+*.h5
+*.pkl
+*.model
+*.onnx
+models/
+weights/
+checkpoints/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.backup
+*.old
+*.orig
+
+# Node modules (if any)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build scripts
+build.sh
+deploy.sh
+local-*.sh
+
+# Large files
+*.tar
+*.tar.gz
+*.zip
+*.rar
+
+# IDE-specific
+.pydevproject
+.project
+.settings/
+*.iml
+
+# Cache directories
+.cache/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Secrets and keys
+*.key
+*.pem
+*.crt
+*.p12
+secrets/
