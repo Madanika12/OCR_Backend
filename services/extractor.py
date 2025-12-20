@@ -14,8 +14,8 @@ import numpy as np
 from config import Config
 
 # Set Tesseract path
-pytesseract.pytesseract.tesseract_cmd = r"D:\tesseract\tesseract.exe"
-
+from config import Config
+pytesseract.pytesseract.tesseract_cmd = Config.TESSERACT_PATH
 # ==================== OPTIONAL IMPORTS ====================
 
 # PDF processing

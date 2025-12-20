@@ -1,35 +1,46 @@
-# Core Web Framework
+# ===== WEB FRAMEWORK =====
 Flask==3.0.3
 flask-cors==4.0.1
 Werkzeug==3.0.3
 waitress==3.0.0
 
-# MongoDB
+# ===== DATABASE =====
 pymongo==4.8.0
 python-dotenv==1.0.1
 
-# Image Processing & OCR
+# ===== IMAGE PROCESSING & OCR =====
 Pillow==10.4.0
 pytesseract==0.3.13
 numpy==1.26.4
+opencv-python==4.10.0.84
 
-# PDF Processing
+# ===== PDF PROCESSING =====
 pdf2image==1.17.0
 pdfplumber==0.11.4
 
-# Utilities
+# ===== MACHINE LEARNING & DEEP LEARNING =====
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+ultralytics==8.2.0
+python-doctr==0.8.1
+scikit-learn==1.5.1
+scipy==1.13.1
+
+# ===== DATA PROCESSING =====
+pandas==2.2.2
+
+# ===== VISUALIZATION =====
+matplotlib==3.9.1
+seaborn==0.13.2
+
+# ===== IMAGE AUGMENTATION =====
+albumentations==1.4.11
+
+# ===== UTILITIES =====
 python-dateutil==2.9.0
-
 requests==2.32.3
-
-# ============================================
-# REMOVED FOR SIZE OPTIMIZATION:
-# - torch (800+ MB)
-# - torchvision (200+ MB)
-# - ultralytics/YOLO (300+ MB)
-# - opencv-python (100+ MB)
-# - python-doctr (200+ MB)
-# ============================================
-# TOTAL SAVINGS: ~1.6 GB
-# NEW IMAGE SIZE: ~1.2-1.4 GB (under 2GB limit)
-# ============================================
+tqdm==4.66.4
+PyYAML==6.0.1
+urllib3==2.2.2
+typing-extensions==4.12.2
